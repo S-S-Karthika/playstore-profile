@@ -1,0 +1,15 @@
+GET http://localhost:8086/Profile/
+
+
+###
+
+POST http://localhost:8086/Profile/
+Content-Type: application/json
+
+{
+    "userName":"karthika",
+    "eMail":"k2@gmail.com",
+    "dob":"12/12/24",
+    "contact":89900
+    
+}
